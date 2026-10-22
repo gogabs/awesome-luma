@@ -70,6 +70,11 @@ ganhar release, o link passa a apontar para ela.
   o piloto rema a canoa e o vigia, ouvindo só o rio à frente, guia pela voz.
   Versão 0.2.0, sem release ainda.
   [Baixar](https://github.com/gogabs/rio-abaixo/archive/refs/heads/main.zip)
+- [Dead vs. Alive](https://github.com/gogabs/dead-vs-alive) — Sobreviva às
+  ondas de zumbis ouvindo de onde eles vêm, sala por sala, trocando de arma a
+  cada onda. Um bipe na direção do zumbi na mira diz a distância, então dá para
+  jogar sem fone. Sons do Swamp, do Aprone. Versão 0.1.0, sem release ainda.
+  [Baixar](https://github.com/gogabs/dead-vs-alive/archive/refs/heads/main.zip)
 
 ## Apps
 
