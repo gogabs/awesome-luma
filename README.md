@@ -13,7 +13,6 @@ R36S handheld running Luma/ArkOS. Everything is in Brazilian Portuguese.*
 ## Sumário
 
 - [Sobre os downloads](#sobre-os-downloads)
-- [Plataforma](#plataforma)
 - [Engine](#engine)
 - [Jogos](#jogos)
 - [Apps](#apps)
@@ -27,17 +26,6 @@ Nenhum dos jogos tem release publicada no GitHub ainda. Por enquanto, o link
 pelo GitHub na hora. Ele tem o `instalar.sh` e a cópia da biblioteca
 `r36s_a11y`, e serve para instalar no console ou rodar no PC. Quando um jogo
 ganhar release, o link passa a apontar para ela.
-
-## Plataforma
-
-- [Luma/ArkOS](https://github.com/gogabs/r36s-a11y) — O sistema acessível do
-  R36S: lista de jogos falada no lugar do EmulationStation, o `a11yd` com os
-  atalhos de Fn (voz, volume, brilho, bateria, tela), vozes eSpeak NG e
-  RHVoice com a Letícia, narração do RetroArch, página no PC e pasta dos jogos
-  no Windows pelo cabo USB. Repositório privado.
-  - Release: [RHVoice 1.18.4 a11y (2)](https://github.com/gogabs/r36s-a11y/releases/tag/rhvoice-1.18.4-a11y2),
-    o RHVoice com a voz Letícia compilado para o console (arm64, ArkOS).
-  - Montar um console do zero: [docs/instalacao.md](https://github.com/gogabs/r36s-a11y/blob/main/docs/instalacao.md).
 
 ## Engine
 
@@ -82,10 +70,6 @@ ganhar release, o link passa a apontar para ela.
   o piloto rema a canoa e o vigia, ouvindo só o rio à frente, guia pela voz.
   Versão 0.2.0, sem release ainda.
   [Baixar](https://github.com/gogabs/rio-abaixo/archive/refs/heads/main.zip)
-- [Dead vs. Alive](https://github.com/gogabs/dead-vs-alive) — Sobreviva às
-  ondas de zumbis ouvindo de onde eles vêm, sala por sala, trocando de arma a
-  cada onda. Repositório privado, porque os sons não são nossos para
-  redistribuir; sem release.
 
 ## Apps
 
