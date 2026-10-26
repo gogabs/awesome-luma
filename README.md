@@ -82,6 +82,13 @@ ganhar release, o link passa a apontar para ela.
   cada onda. Um bipe na direção do zumbi na mira diz a distância, então dá para
   jogar sem fone. Sons do Swamp, do Aprone. Versão 0.1.0, sem release ainda.
   [Baixar](https://github.com/gogabs/dead-vs-alive/archive/refs/heads/main.zip)
+- [Rolê](https://github.com/gogabs/luma-role) — Patinação urbana sem parar: você
+  patina sozinho, cada obstáculo avisa em três batidas com um som próprio e
+  você pula, freia, pega rampa, desliza no corrimão, desce escadas e faz curvas,
+  além das manobras no ar. O combo faz a música ganhar camadas e três quedas
+  encerram a corrida. Jogável sem estéreo e com pixel art. Protótipo, versão
+  0.1.0, sem release ainda.
+  [Baixar](https://github.com/gogabs/luma-role/archive/refs/heads/main.zip)
 
 ## Apps
 
