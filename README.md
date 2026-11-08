@@ -21,11 +21,12 @@ R36S handheld running Luma/ArkOS. Everything is in Brazilian Portuguese.*
 
 ## Sobre os downloads
 
-Nenhum dos jogos tem release publicada no GitHub ainda. Por enquanto, o link
-**Baixar** de cada item é o zip do código atual do branch principal, gerado
-pelo GitHub na hora. Ele tem o `instalar.sh` e a cópia da biblioteca
-`r36s_a11y`, e serve para instalar no console ou rodar no PC. Quando um jogo
-ganhar release, o link passa a apontar para ela.
+O link **Baixar** aponta para o pacote da release quando há uma distribuição
+pronta; nos projetos sem release, aponta para o zip do código do branch
+principal. Confira no README de cada jogo se o download é código-fonte ou
+um pacote para instalar. As distribuições experimentais da conta EoTutts
+listadas abaixo são para **R36S RK3326/Linux ARM64**, com requisitos, créditos
+e SHA-256 nos respectivos repositórios; não são pacotes para GA36/ARMv7.
 
 ## Engine
 
@@ -90,6 +91,22 @@ ganhar release, o link passa a apontar para ela.
   0.1.0, sem release ainda.
   [Baixar](https://github.com/gogabs/luma-role/archive/refs/heads/main.zip)
 
+- [Pokémon ShowUp](https://github.com/EoTutts/pokemon-showup) — Batalhas
+  Pokémon com times de seis, IA, dois jogadores no mesmo console, partidas em
+  rede e campanha Jornada de nove regiões. Versão 0.5.0+r36s-audio.20261012,
+  distribuição experimental para R36S ARM64.
+  [Baixar](https://github.com/EoTutts/pokemon-showup/releases/download/v0.5.0-r36s-audio.20261012-distribution.20261106/pokemon-showup-linux-arm64.zip)
+- [Port Mondes](https://github.com/EoTutts/port-mondes) — Porte acessível do
+  RPG Port Mondes, com exploração, combates por turnos, inventário, magia e
+  aventuras em português, inglês e francês. Versão 0.1.0, distribuição
+  experimental para R36S ARM64.
+  [Baixar](https://github.com/EoTutts/port-mondes/releases/download/v0.1.0-distribution.20261106/port-mondes-linux-arm64.zip)
+- [Galope](https://github.com/EoTutts/galope) — Corrida sem fim a cavalo:
+  salte obstáculos e escape dos cães, com pistas sonoras posicionais,
+  velocidade crescente e gráficos opcionais. Versão 1.0.0, distribuição
+  experimental para R36S ARM64.
+  [Baixar](https://github.com/EoTutts/galope/releases/download/v1.0.0-distribution.20261106/galope-linux-arm64.zip)
+
 ## Apps
 
 - [Vinyl](https://github.com/gogabs/vinyl) — Player de audiolivros e música
@@ -100,7 +117,16 @@ ganhar release, o link passa a apontar para ela.
 
 ## Como instalar um jogo
 
-Com o console montado pelo Luma, cada jogo traz um `instalar.sh`: com o Mage
+Nos pacotes compilados, extraia o ZIP completo e copie a pasta que contém o
+`game.json` para `a11y/games/` na partição EASYROMS do cartão. O nome da pasta
+deve ser o `id` do manifesto. Também é possível enviar o ZIP pela opção
+**Instalar jogo** da Página no PC do Luma. Feche o jogo antes de atualizar e
+preserve `a11y/saves/`. Os jogos .NET precisam do runtime compartilhado do
+Luma; Port Mondes inclui Python 3.8 privado. Requisitos e estado de validação
+ficam no README de cada distribuição.
+
+Nos jogos distribuídos como código-fonte, siga as instruções de build ou o
+`instalar.sh` do próprio projeto. Com o Mage
 Core clonado ao lado do repositório do jogo, rode `./instalar.sh` e o jogo
 aparece na lista sozinho. Os detalhes de cada um estão no README do
 repositório. Para rodar no PC (Windows), use o Mage:
