@@ -93,19 +93,19 @@ e SHA-256 nos respectivos repositórios; não são pacotes para GA36/ARMv7.
 
 - [Pokémon ShowUp](https://github.com/EoTutts/pokemon-showup) — Batalhas
   Pokémon com times de seis, IA, dois jogadores no mesmo console, partidas em
-  rede e campanha Jornada de nove regiões. Versão 0.5.0+r36s-audio.20261012,
+  rede e campanha Jornada de nove regiões. Versão 0.5.1+r36s-audio.20261119,
   distribuição experimental para R36S ARM64.
-  [Baixar](https://github.com/EoTutts/pokemon-showup/releases/download/v0.5.0-r36s-audio.20261012-distribution.20261106/pokemon-showup-linux-arm64.zip)
+  [Baixar](https://github.com/EoTutts/pokemon-showup/releases/download/v0.5.1-luma.20261119/pokemon-showup-linux-arm64.zip)
 - [Port Mondes](https://github.com/EoTutts/port-mondes) — Porte acessível do
   RPG Port Mondes, com exploração, combates por turnos, inventário, magia e
-  aventuras em português, inglês e francês. Versão 0.1.0, distribuição
+  aventuras em português, inglês e francês. Versão 0.1.1, distribuição
   experimental para R36S ARM64.
-  [Baixar](https://github.com/EoTutts/port-mondes/releases/download/v0.1.0-distribution.20261106/port-mondes-linux-arm64.zip)
+  [Baixar](https://github.com/EoTutts/port-mondes/releases/download/v0.1.1-luma.20261119/port-mondes-linux-arm64.zip)
 - [Galope](https://github.com/EoTutts/galope) — Corrida sem fim a cavalo:
   salte obstáculos e escape dos cães, com pistas sonoras posicionais,
-  velocidade crescente e gráficos opcionais. Versão 1.0.0, distribuição
+  velocidade crescente e gráficos opcionais. Versão 1.0.1, distribuição
   experimental para R36S ARM64.
-  [Baixar](https://github.com/EoTutts/galope/releases/download/v1.0.0-distribution.20261106/galope-linux-arm64.zip)
+  [Baixar](https://github.com/EoTutts/galope/releases/download/v1.0.1-luma.20261119/galope-linux-arm64.zip)
 
 ## Apps
 
